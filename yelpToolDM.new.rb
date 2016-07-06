@@ -1,3 +1,4 @@
+# Code by Duncan McFadden, edited by Nick Walker
 require 'rubygems'
 require 'oauth'
 require 'json'
