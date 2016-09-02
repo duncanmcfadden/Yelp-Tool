@@ -15,10 +15,10 @@ radius = ARGV[2].to_f if (ARGV.length > 2)
 $log_level = 0
 $log_level = ARGV[3].to_i if (ARGV.length > 3)
 
-consumerKey = "4bVbpVq3W4cL4LMljNFTpQ" # Authkeys for Yelp access
-consumerSecret = "kqR-Z6zYuPcCyzEKnOWkd-FWPXY"
-aToken = "Ndv1kLv0Zrpjhmx43Admf3LIqfzresqF"
-tokenSecret ="sPPue_P8xw514UYlGSljdcHLTMc"
+consumerKey = "MY_CONSUMER_KEY" # Authkeys for Yelp access
+consumerSecret = "MY_CONSUMER_SECRET"
+aToken = "MY_ACCESS_TOKEN"
+tokenSecret ="MY_TOKEN_SECRET"
 
 api_host = 'api.yelp.com' # Applying keys and creating consumer for searching
 consumer = OAuth::Consumer.new(consumerKey, consumerSecret, {:site => "http://#{api_host}"})
